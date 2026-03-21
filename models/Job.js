@@ -1,5 +1,5 @@
-const { required } = require("joi");
 const mongoose = require("mongoose");
+const User = require("./User");
 
 const JobSchema = new mongoose.Schema(
   {
